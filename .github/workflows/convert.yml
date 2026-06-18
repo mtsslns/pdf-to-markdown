@@ -21,7 +21,7 @@ jobs:
           python-version: '3.12'
 
       - name: Instalar markitdown
-        run: pip install markitdown
+        run: pip install "markitdown[pdf]"
 
       - name: Convertir PDFs a Markdown
         run: |
